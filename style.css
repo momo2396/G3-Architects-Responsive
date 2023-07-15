@@ -125,6 +125,19 @@ main {
     flex-direction: column;
     gap: 20px;
   }
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .feature-sec-container {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 20px;
+  }
+  .feature-sec-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .nav-elements > ul {
     gap: 20px;
   }
@@ -142,5 +155,21 @@ main {
   }
   .banner {
     padding-top: 50px;
+  }
+  main {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .feature-sec-container {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 20px;
+  }
+  .feature-sec-desc {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 0px;
   }
 }
