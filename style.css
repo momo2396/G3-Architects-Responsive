@@ -1,0 +1,14 @@
+* {
+  font-family: Work Sans;
+}
+nav {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-around;
+}
+.nav-elements > ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  /* padding-right: 240px; */
+}
